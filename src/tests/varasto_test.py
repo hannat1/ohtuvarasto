@@ -11,6 +11,7 @@ class TestVarasto(unittest.TestCase):
         self.varasto = Varasto(10)
 
     def test_str(self):
+        #Testi str
         self.assertEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
         
     def test_konstruktori_luo_tyhjan_varaston(self):
