@@ -70,4 +70,4 @@ def main():
     ota_varastosta(mehua, olutta)
 
 if __name__ == "__main__":
-    main()
+    main() 
