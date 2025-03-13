@@ -62,6 +62,7 @@ def ota_varastosta(mehua, olutta):
 
 def main():
     print("HEI VAAN")
+    print("moi kaikki vaan")
     mehua, olutta =luo_varastot()
     tulosta_varastot(mehua, olutta)
     olut_getter(olutta)
