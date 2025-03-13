@@ -1,5 +1,8 @@
 from varasto import Varasto
 
+print("moi kaikki")
+print("moi vaan taas")
+
 
 def luo_varastot():
     mehua = Varasto(100.0)
