@@ -61,6 +61,7 @@ def ota_varastosta(mehua, olutta):
     print(f"Mehuvarasto: {mehua}")
 
 def main():
+    print("HEI VAAN")
     mehua, olutta =luo_varastot()
     tulosta_varastot(mehua, olutta)
     olut_getter(olutta)
